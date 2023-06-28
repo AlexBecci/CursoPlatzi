@@ -18,10 +18,10 @@ function router(req, res) {
       res.end();
   }
 
-  res.writeHead(201, { "Content-Type": "text/plain" });
-  //EScribir respuesta al usuario
-  res.write("Hola se usar http con node JS");
+  // res.writeHead(201, { "Content-Type": "text/plain" });
+  // //EScribir respuesta al usuario
+  // res.write("Hola se usar http con node JS");
 
-  res.end();
+  // res.end();
 }
 console.log("escuchando http en el puerto 3000");
